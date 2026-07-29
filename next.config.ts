@@ -12,7 +12,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  output: "export",
   trailingSlash: false,
   webpack: (config) => {
     config.resolve.alias = {
