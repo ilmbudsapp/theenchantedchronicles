@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-Allow: /sitemap.xml
-
-Sitemap: https://www.agrmultimedia.eu/sitemap.xml
