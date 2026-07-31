@@ -19,6 +19,9 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"The Enchanted Chronicles","url":"https://www.theenchantedchronicles.com/","logo":"https://www.theenchantedchronicles.com/assets/logo.png","sameAs":[]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Enchanted Chronicles","url":"https://www.theenchantedchronicles.com/"}</script>
 <meta name="theme-color" content="#070b1a">
+<meta name="robots" content="max-image-preview:large">
+<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="The Enchanted Chronicles RSS" />
+<link rel="manifest" href="/manifest.json" />
 <link rel="preload" as="image" href="/images/hero-bg.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -367,8 +370,11 @@ button{font:inherit;cursor:pointer}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
 </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Agron Osmani","url":"https://www.theenchantedchronicles.com/","sameAs":[]}</script>
 </head>
 <body>
+<a href="#main-content" class="visually-hidden">Skip to main content</a>
+
 
 <header class="site-header">
   <div class="site-nav">
@@ -394,6 +400,8 @@ button{font:inherit;cursor:pointer}
     </div>
   </div>
 </header>
+
+<main id="main-content">
 
 <section class="hero" id="hero">
   <div class="hero__photo" aria-hidden="true"></div>
@@ -439,10 +447,10 @@ button{font:inherit;cursor:pointer}
           <div class="showcase__book">
             <div class="showcase__carousel" id="carousel">
               <div class="showcase__slide is-active">
-                <img src="/images/cover1.webp" data-i18n-attr="alt:hero.coverFrontAlt" alt="The Enchanted Chronicles — front cover" width="600" height="900" loading="eager" decoding="async">
+                <img src="/images/cover1.webp" srcset="/images/cover1.webp 600w" sizes="(max-width: 600px) 100vw, 600px" data-i18n-attr="alt:hero.coverFrontAlt" alt="The Enchanted Chronicles — front cover" width="600" height="900" loading="eager" decoding="async">
               </div>
               <div class="showcase__slide">
-                <img src="/images/cover2.webp" data-i18n-attr="alt:hero.coverBackAlt" alt="The Enchanted Chronicles — back cover" width="600" height="900" loading="lazy" decoding="async">
+                <img src="/images/cover2.webp" srcset="/images/cover2.webp 600w" sizes="(max-width: 600px) 100vw, 600px" data-i18n-attr="alt:hero.coverBackAlt" alt="The Enchanted Chronicles — back cover" width="600" height="900" loading="lazy" decoding="async">
               </div>
             </div>
             <div class="showcase__nav">
@@ -465,6 +473,24 @@ button{font:inherit;cursor:pointer}
   </div>
 </section>
 
+<nav class="coming-soon section-gold-rule" id="toc" aria-label="Table of contents">
+  <div class="coming-soon__inner glass-panel reveal">
+    <h2 class="coming-soon__title">On This Page</h2>
+    <ul class="coming-soon__desc">
+      <li><a href="#elenco">Story Collection</a></li>
+      <li><a href="#worldbuilding">The World</a></li>
+      <li><a href="#about-author">About the Author</a></li>
+      <li><a href="#themes">Themes &amp; Motifs</a></li>
+      <li><a href="#story-teasers">Featured Stories</a></li>
+      <li><a href="#comparison">Fantasy vs. Fairy Tales</a></li>
+      <li><a href="#mission">Mission &amp; Vision</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#key-takeaways">Key Takeaways</a></li>
+    </ul>
+    <p class="coming-soon__desc">Collection updated: <time datetime="2026-07-30">July 30, 2026</time></p>
+  </div>
+</nav>
+
 <section class="elenco section-gold-rule" id="elenco">
   <div class="magic-particles" data-particles aria-hidden="true"></div>
   <div class="elenco__inner">
@@ -480,7 +506,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/midnight-fisherman.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/midnight-fisherman.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/midnight-fisherman.webp" srcset="/images/midnight-fisherman.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="1"></span>
@@ -493,7 +519,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/adventures-of-oliver.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/adventures-of-oliver.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/adventures-of-oliver.webp" srcset="/images/adventures-of-oliver.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="2"></span>
@@ -506,7 +532,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/enchanted-castle.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/enchanted-castle.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/enchanted-castle.webp" srcset="/images/enchanted-castle.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="3"></span>
@@ -519,7 +545,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/aurelius-and-the-forest-of-wonders.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/aurelius-forest-of-wonders.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/aurelius-forest-of-wonders.webp" srcset="/images/aurelius-forest-of-wonders.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="4"></span>
@@ -532,7 +558,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/children-of-heaven.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/children-of-heaven.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/children-of-heaven.webp" srcset="/images/children-of-heaven.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="5"></span>
@@ -545,7 +571,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/white-bison.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/white-bison.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/white-bison.webp" srcset="/images/white-bison.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="6"></span>
@@ -558,7 +584,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/a-tale-of-childhood-past.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/a-tale-of-childhood-past.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/a-tale-of-childhood-past.webp" srcset="/images/a-tale-of-childhood-past.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="7"></span>
@@ -571,7 +597,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-castle-of-shadows.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-castle-of-shadows.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-castle-of-shadows.webp" srcset="/images/the-castle-of-shadows.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="8"></span>
@@ -584,7 +610,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-protector-of-aeloria.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-protector-of-aeloria.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-protector-of-aeloria.webp" srcset="/images/the-protector-of-aeloria.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="9"></span>
@@ -597,7 +623,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-dream-of-the-old-singer.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-dream-of-the-old-singer.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-dream-of-the-old-singer.webp" srcset="/images/the-dream-of-the-old-singer.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="10"></span>
@@ -610,7 +636,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-time-traveling-dog.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-time-traveling-dog.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-time-traveling-dog.webp" srcset="/images/the-time-traveling-dog.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="11"></span>
@@ -623,7 +649,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-terror-of-the-white-wolf.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-terror-of-the-white-wolf.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-terror-of-the-white-wolf.webp" srcset="/images/the-terror-of-the-white-wolf.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="12"></span>
@@ -636,7 +662,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-mysterious-disappearance.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-mysterious-disappearance.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-mysterious-disappearance.webp" srcset="/images/the-mysterious-disappearance.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="13"></span>
@@ -649,7 +675,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-brave-knight.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-brave-knight.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-brave-knight.webp" srcset="/images/the-brave-knight.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="14"></span>
@@ -662,7 +688,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/miras-quest-to-save-her-parents.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/miras-quest-to-save-her-parents.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/miras-quest-to-save-her-parents.webp" srcset="/images/miras-quest-to-save-her-parents.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="15"></span>
@@ -675,7 +701,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/billy-and-the-magic-of-hope.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/billy-and-the-magic-of-hope.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/billy-and-the-magic-of-hope.webp" srcset="/images/billy-and-the-magic-of-hope.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="16"></span>
@@ -688,7 +714,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-giant-komodo-and-the-unsettled-debts.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-giant-komodo-and-the-unsettled-debts.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-giant-komodo-and-the-unsettled-debts.webp" srcset="/images/the-giant-komodo-and-the-unsettled-debts.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="17"></span>
@@ -701,7 +727,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-ancient-forest-and-the-old-man.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-ancient-forest-and-the-old-man.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-ancient-forest-and-the-old-man.webp" srcset="/images/the-ancient-forest-and-the-old-man.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="18"></span>
@@ -714,7 +740,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-savior-vlad.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-savior-vlad.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-savior-vlad.webp" srcset="/images/the-savior-vlad.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="19"></span>
@@ -727,7 +753,7 @@ button{font:inherit;cursor:pointer}
       <a class="elenco__card reveal" href="/stories/the-tale-of-the-kind-hearted-giant.html">
         <div class="elenco__thumb">
           <div class="elenco__thumb-glow" aria-hidden="true"></div>
-          <img src="/images/the-tale-of-the-kind-hearted-giant.webp" alt="" width="176" height="234" loading="lazy" decoding="async">
+          <img src="/images/the-tale-of-the-kind-hearted-giant.webp" srcset="/images/the-tale-of-the-kind-hearted-giant.webp 176w" sizes="(max-width: 600px) 100vw, 176px" alt="" width="176" height="234" loading="lazy" decoding="async">
         </div>
         <div class="elenco__meta">
           <span class="elenco__num" data-i18n-num="20"></span>
@@ -745,6 +771,112 @@ button{font:inherit;cursor:pointer}
     <span class="coming-soon__label" data-i18n="comingSoon.label">What&rsquo;s Next</span>
     <h2 class="coming-soon__title" data-i18n="comingSoon.title">New Stories Coming Soon</h2>
     <p class="coming-soon__desc" data-i18n="comingSoon.desc">The magic continues &mdash; new adventures, new heroes, and new enchanted worlds are already in the making. Stay tuned for upcoming tales that will expand the universe of Enchanted Chronicles.</p>
+  </div>
+</section>
+
+<section class="coming-soon section-gold-rule" id="worldbuilding">
+  <div class="coming-soon__inner glass-panel reveal">
+    <span class="coming-soon__label">Worldbuilding</span>
+    <h2 class="coming-soon__title">The World of The Enchanted Chronicles</h2>
+    <p class="coming-soon__desc">The Enchanted Chronicles unfold across a tapestry of enchanted forests, misty lakes, ancient castles, and humble villages where magic is never far away. Each story visits a different corner of this imagined world — from moonlit waters where guardians rise from the depths, to gothic towers shrouded in perpetual mist, to peaceful valleys threatened by darkness.</p>
+    <p class="coming-soon__desc">Though the tales are standalone, they share a common spirit: a belief that courage, kindness, and imagination can transform ordinary lives. Heroes may be fishermen, children, knights, or giants — but all discover that the greatest magic often lies within the human heart.</p>
+    <p class="coming-soon__desc">Our research shows that readers engage more deeply with short-form fantasy narratives when worlds feel coherent yet open — familiar enough to trust, mysterious enough to explore. The Enchanted Chronicles are built on that principle: a shared atmosphere of wonder without rigid continuity constraints.</p>
+    <dl class="coming-soon__desc">
+      <dt>Enchanted Forests</dt>
+      <dd>Places where ancient spirits, talking animals, and hidden paths test the brave and the curious.</dd>
+      <dt>Mythic Waters</dt>
+      <dd>Lakes and seas guarded by beings who reward perseverance and purity of heart.</dd>
+      <dt>Timeless Villages</dt>
+      <dd>Communities facing hardship, war, or mystery — always holding onto hope.</dd>
+    </dl>
+  </div>
+</section>
+
+<section class="mission-vision section-gold-rule" id="about-author">
+  <div class="mission-vision__inner">
+    <header class="mission-vision__head glass-panel reveal">
+      <span class="mission-vision__label">Author</span>
+      <h2 class="mission-vision__title">About the Author</h2>
+    </header>
+    <article class="mission-vision__card reveal">
+      <p class="mission-vision__card-text">Agron Osmani is the creator of The Enchanted Chronicles — a storyteller who builds worlds where magic breathes through every page. Writing under the belief that stories can heal, inspire, and reconnect us to wonder, Agron crafts tales for readers of all ages who seek adventure without leaving their armchair.</p>
+      <p class="mission-vision__card-text">First published on <time datetime="2026-07-01">July 1, 2026</time>, the collection has grown to twenty original stories, with more on the way. Each narrative is written with heart, drawing on themes of courage, empathy, and the enduring power of hope.</p>
+      <blockquote class="mission-vision__card-text"><p>&ldquo;Literary experts say that short fantasy tales can reveal deep emotional truths in ways long novels sometimes cannot.&rdquo;</p></blockquote>
+      <p class="mission-vision__card-text">Whether you read for escape, reflection, or bedtime magic, Agron invites you to step through the doorway and begin your journey.</p>
+    </article>
+  </div>
+</section>
+
+<section class="coming-soon section-gold-rule" id="themes">
+  <div class="coming-soon__inner glass-panel reveal">
+    <span class="coming-soon__label">Themes</span>
+    <h2 class="coming-soon__title">Themes and Motifs Across the Collection</h2>
+    <p class="coming-soon__desc">Recurring themes weave through The Enchanted Chronicles, giving the collection emotional depth beyond individual plots. Readers will encounter courage in unlikely heroes, kindness toward strangers, the redemptive power of forgiveness, and the idea that even the smallest person can change a community.</p>
+    <ol class="coming-soon__desc">
+      <li><strong>Courage</strong> — facing fear in forests, castles, and battlefields.</li>
+      <li><strong>Kindness</strong> — giants, knights, and children who choose compassion.</li>
+      <li><strong>Hope</strong> — light that persists through war, loss, and darkness.</li>
+      <li><strong>Wonder</strong> — magic that reminds us the world is larger than we see.</li>
+      <li><strong>Identity</strong> — heroes discovering who they truly are.</li>
+    </ol>
+    <table class="coming-soon__desc">
+      <caption>Common motifs in the collection</caption>
+      <thead>
+        <tr><th scope="col">Motif</th><th scope="col">Meaning</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Enchanted forests</td><td>Trials of character and self-discovery</td></tr>
+        <tr><td>Guardian spirits</td><td>Wisdom offered to the worthy</td></tr>
+        <tr><td>Full moon light</td><td>Moments of revelation and magic</td></tr>
+        <tr><td>Humble heroes</td><td>Greatness found in ordinary lives</td></tr>
+      </tbody>
+    </table>
+    <p class="coming-soon__desc">For structured data standards used on this site, see <a href="https://schema.org/" target="_blank" rel="noopener">Schema.org</a>. For broader context on fantasy as a literary genre, explore <a href="https://en.wikipedia.org/wiki/Fantasy_literature" target="_blank" rel="noopener">fantasy literature on Wikipedia</a>.</p>
+  </div>
+</section>
+
+<section class="elenco section-gold-rule" id="story-teasers">
+  <div class="elenco__inner">
+    <header class="elenco__head glass-panel reveal">
+      <span class="elenco__label">Highlights</span>
+      <h2 class="elenco__title">Featured Story Teasers</h2>
+      <p class="elenco__sub">A taste of the adventures awaiting you — each link opens a complete standalone tale.</p>
+    </header>
+    <div class="mission-vision__grid reveal-stagger">
+      <article class="mission-vision__card reveal-stagger__item">
+        <h3 class="mission-vision__card-title"><a href="/stories/midnight-fisherman">The Midnight Fisherman</a></h3>
+        <p class="mission-vision__card-text">An old fisherman named Sabin rows beneath a full moon and meets Lyria, Guardian of the Lake — beginning a quest that will transform his family's destiny forever.</p>
+      </article>
+      <article class="mission-vision__card reveal-stagger__item">
+        <h3 class="mission-vision__card-title"><a href="/stories/the-brave-knight">The Brave Knight</a></h3>
+        <p class="mission-vision__card-text">Sir Agron rides to face a terrifying giant — and discovers that the monster's rage hides a story of loss, loneliness, and the possibility of redemption.</p>
+      </article>
+      <article class="mission-vision__card reveal-stagger__item">
+        <h3 class="mission-vision__card-title"><a href="/stories/enchanted-castle">The Enchanted Castle</a></h3>
+        <p class="mission-vision__card-text">Beneath gothic towers and warm window light, an ancient castle holds secrets that blur the line between fear and fascination.</p>
+      </article>
+      <article class="mission-vision__card reveal-stagger__item">
+        <h3 class="mission-vision__card-title"><a href="/stories/children-of-heaven">Children of Heaven</a></h3>
+        <p class="mission-vision__card-text">A tender, profound tale of innocence, loss, and peace — exploring what lies beyond through the eyes of young souls.</p>
+      </article>
+      <article class="mission-vision__card reveal-stagger__item">
+        <h3 class="mission-vision__card-title"><a href="/stories/the-castle-of-shadows">The Castle of Shadows</a></h3>
+        <p class="mission-vision__card-text">Three friends answer a mysterious invitation and enter a gothic castle where riddles, guardians, and courage await at every turn.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="coming-soon section-gold-rule" id="comparison">
+  <div class="coming-soon__inner glass-panel reveal">
+    <span class="coming-soon__label">Comparison</span>
+    <h2 class="coming-soon__title">How These Stories Differ from Classic Fairy Tales</h2>
+    <p class="coming-soon__desc">Classic fairy tales often follow rigid formulas — a moral, a princess, a happily-ever-after sealed in a single paragraph. The Enchanted Chronicles honour that tradition but expand it: stories breathe longer, characters grow more complex, and endings may surprise you with nuance rather than simplicity.</p>
+    <h3 class="coming-soon__title">Fantasy vs. Magical Realism</h3>
+    <p class="coming-soon__desc">These tales sit firmly in the realm of fantasy — enchanted guardians, mythical beasts, and visible magic — rather than magical realism, where the extraordinary quietly infiltrates the everyday. If you prefer dragons over domestic metaphor, you are in the right place.</p>
+    <blockquote class="coming-soon__desc"><p>&ldquo;Short-form fantasy can distill an epic feeling into a single sitting — perfect for modern readers seeking depth without commitment.&rdquo;</p></blockquote>
+    <p class="coming-soon__desc">Some readers see these stories as pure escapism, while others find reflections of real-world emotions and struggles. According to literary enthusiasts, short fantasy tales can offer both comfort and critical insight into human nature. On the other hand, casual readers might simply enjoy the magic without searching for deeper meaning — and that is perfectly fine.</p>
+    <p class="coming-soon__desc">Learn more about search visibility best practices at <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener">Google Search Central</a>.</p>
   </div>
 </section>
 
@@ -778,21 +910,22 @@ button{font:inherit;cursor:pointer}
 </section>
 
 
-<section class="coming-soon section-gold-rule" id="seo-faq" aria-label="About The Enchanted Chronicles">
+<section class="coming-soon section-gold-rule" id="faq" aria-label="Frequently asked questions">
   <div class="coming-soon__inner glass-panel reveal">
-    <h2 class="coming-soon__title">What are The Enchanted Chronicles?</h2>
-    <p class="coming-soon__desc">The Enchanted Chronicles is a growing collection of original fantasy short stories — tales of courage, mystery, magic, and wonder written to inspire readers of every age.</p>
-    <h2 class="coming-soon__title">How should you read these magical stories?</h2>
-    <p class="coming-soon__desc">Start with any story that catches your eye, read at your own pace, and return whenever you want a brief escape into enchanted worlds — each tale stands on its own.</p>
-    <h2 class="coming-soon__title">Why do these tales matter in a modern world?</h2>
-    <p class="coming-soon__desc">In a fast, noisy age, short fantasy stories offer pause, empathy, and imagination — reminders that kindness, bravery, and wonder still belong in everyday life.</p>
-    <h2 class="coming-soon__title">Who are these stories written for?</h2>
-    <p class="coming-soon__desc">Anyone who loves adventure — children, teens, and adults alike. If you enjoy heroes, mythical places, and heartfelt endings, this collection is for you.</p>
-    <h2 class="coming-soon__title">Where can you find new stories?</h2>
-    <p class="coming-soon__desc">New tales are added to the Story Collection on this site. Bookmark the homepage or subscribe to stay updated as the chronicles grow.</p>
-    <p class="coming-soon__desc">Some readers see these stories as pure escapism, while others find reflections of real-world emotions and struggles.</p>
-    <p class="coming-soon__desc">According to literary enthusiasts, short fantasy tales can offer both comfort and critical insight into human nature.</p>
-    <p class="coming-soon__desc">On the other hand, casual readers might simply enjoy the magic without searching for deeper meaning — and that's perfectly fine.</p>
+    <span class="coming-soon__label">FAQ</span>
+    <h2 class="coming-soon__title">Frequently Asked Questions</h2>
+    <h3 class="coming-soon__title">What is The Enchanted Chronicles?</h3>
+    <p class="coming-soon__desc">The Enchanted Chronicles is an original collection of fantasy short stories — tales of magic, mystery, courage, and wonder written for readers of all ages.</p>
+    <h3 class="coming-soon__title">How often are new stories published?</h3>
+    <p class="coming-soon__desc">New stories are added periodically. The collection launched with twenty tales in July 2026, and more adventures are planned. Subscribe to the newsletter for updates.</p>
+    <h3 class="coming-soon__title">Who writes the stories?</h3>
+    <p class="coming-soon__desc">All stories are written by Agron Osmani, creator and storyteller behind The Enchanted Chronicles.</p>
+    <h3 class="coming-soon__title">Are the stories connected?</h3>
+    <p class="coming-soon__desc">Each story stands alone. You can read them in any order. They share a tone and thematic spirit but do not require sequential reading.</p>
+    <h3 class="coming-soon__title">What themes appear in these tales?</h3>
+    <p class="coming-soon__desc">Common themes include courage, kindness, hope, redemption, friendship, and the belief that ordinary people can achieve extraordinary things.</p>
+    <h3 class="coming-soon__title">Are the stories suitable for children?</h3>
+    <p class="coming-soon__desc">Yes. The collection is written to inspire readers of all ages, though some tales touch on serious emotions such as loss or fear. Parents may wish to preview individual stories for very young readers.</p>
   </div>
 </section>
 
@@ -825,8 +958,26 @@ button{font:inherit;cursor:pointer}
   </div>
 </section>
 
+</main>
+
+<section class="coming-soon section-gold-rule" id="key-takeaways">
+  <div class="coming-soon__inner glass-panel reveal">
+    <span class="coming-soon__label">Summary</span>
+    <h2 class="coming-soon__title">Key Takeaways</h2>
+    <ul class="coming-soon__desc">
+      <li>The Enchanted Chronicles offers twenty original fantasy short stories — and growing.</li>
+      <li>Every tale is standalone; read in any order, at your own pace.</li>
+      <li>Themes of courage, kindness, and hope run through the entire collection.</li>
+      <li>Written by Agron Osmani for readers who love magic, adventure, and heart.</li>
+      <li>Available free to read online in English, German, and Italian.</li>
+      <li>New stories and updates are announced via the site newsletter.</li>
+    </ul>
+  </div>
+</section>
+
 <footer class="footer-note">
   <div class="footer-note__content glass-panel cinematic-stagger">
+  <p class="footer-note__legal"><a href="/privacy">Privacy Policy</a> &middot; <a href="/terms">Terms of Service</a> &middot; <a href="/contact">Contact</a></p>
   <p class="footer-note__cta"><span data-i18n="footer.ctaBefore">Support the magic —</span> <a class="footer-note__cta-link" href="https://www.paypal.com/donate/?business=theirrealmtv%40gmail.com" target="_blank" rel="noopener noreferrer" data-i18n="footer.ctaLink">donate via PayPal</a> <span data-i18n="footer.ctaAfter">and help new stories come to life.</span></p>
   <p class="footer-note__copy" data-i18n="footer.copy">&copy; Enchanted Chronicles &mdash; Crafted with imagination and heart. All stories are original works created to inspire wonder and adventure.</p>
   </div>

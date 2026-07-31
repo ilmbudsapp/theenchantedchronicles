@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>The Enchanted Chronicles</title>
+<link>https://www.theenchantedchronicles.com/</link>
+<description>Magical short stories of mystery, wonder, and timeless adventures.</description>
+<language>en</language>
+<lastBuildDate>Wed, 30 Jul 2026 00:00:00 GMT</lastBuildDate>
+<item>
+<title>The Midnight Fisherman</title>
+<link>https://www.theenchantedchronicles.com/stories/midnight-fisherman</link>
+<description>A poor fisherman discovers a magical guardian of the lake and a treasure that changes his family's fate.</description>
+<pubDate>Tue, 01 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>The Adventures of Oliver</title>
+<link>https://www.theenchantedchronicles.com/stories/adventures-of-oliver</link>
+<description>A young boy lost in the forest learns courage, resilience, and the wisdom of the wild.</description>
+<pubDate>Tue, 01 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>The Enchanted Castle</title>
+<link>https://www.theenchantedchronicles.com/stories/enchanted-castle</link>
+<description>Under a full moon, an ancient castle reveals secrets of magic, mystery, and redemption.</description>
+<pubDate>Tue, 01 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
