@@ -1,7 +1,7 @@
 {
   "meta": {
-    "homeTitle": "The Enchanted Chronicles | Tales of Magic and Mystery",
-    "homeDescription": "Discover The Enchanted Chronicles – magical short stories of mystery, wonder, and timeless adventures.",
+    "homeTitle": "The Enchanted Chronicles | Fantasy Stories of Magic and Mystery",
+    "homeDescription": "Explore free fantasy stories in The Enchanted Chronicles — an enchanted universe of magic, mystery, and wonder. Start reading today and discover every tale.",
     "aboutTitle": "About Me | The Enchanted Chronicles",
     "aboutDescription": "Enchanted Chronicles — a magical collection of fantasy stories filled with adventure, heroes, mythical creatures, and enchanted worlds. Explore original tales crafted to inspire imagination, courage, and wonder."
   },
@@ -16,8 +16,8 @@
     "language": "Language"
   },
   "hero": {
-    "eyebrow": "Enchanted Chronicles",
-    "title": "Welcome to Enchanted Chronicles",
+    "eyebrow": "The Enchanted Chronicles",
+    "title": "The Enchanted Chronicles — Fantasy Stories of Magic and Mystery",
     "subtitle": "Where imagination becomes reality.",
     "desc": "Where imagination awakens, magic breathes, and every story opens a doorway to wonder. Step into a world of enchanted forests, brave heroes, mythical creatures, and timeless adventures — crafted to inspire hearts of all ages. Your journey begins here.",
     "btnFirstStory": "Read the First Story",
