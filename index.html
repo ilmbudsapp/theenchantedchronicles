@@ -138,7 +138,7 @@ button{font:inherit;cursor:pointer}
   width:min(1280px,calc(100% - 48px));
   margin:0 auto;
   display:grid;grid-template-columns:1.05fr .95fr;
-  gap:clamp(36px,5vw,72px);align-items:center;
+  gap:clamp(36px,5vw,72px);align-items:start;
   padding:clamp(56px,10vh,96px) 0;
 }
 
@@ -235,6 +235,7 @@ button{font:inherit;cursor:pointer}
 .hero__visual{
   opacity:0;
   animation:cinematicFadeIn 1.2s .32s var(--ease-out) forwards;
+  align-self:start;
 }
 
 .showcase{position:relative;max-width:440px;margin:0 auto}
